@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="d42jc!.wv)$YNnmQ-|R7" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="%R!=]MB((_trV!351Gy)"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="GL=fV4EU~VJA5]Av{+MF"/></value></block></statement></block><block type="device_button_event" id="b,peoH+6|%:dfYGVG+vu" x="30" y="156"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="+Vsv{Q4w~CEf`6:Itm.6"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="7UYhOAb`Y2LkkEXO~[S:"/></value><next><block type="controls_if" id="D)uV}Um$]CYwxNiwS1W="><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="UJt3`39dVNr9j;kfVVNh"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="})][K3a@6:2WA0fnO$X+"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="7ziSvX4X1Y[*9DcIZ#Jl"><field name="NUM">25</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~!9lL~R+Uv$[e*)E18c1"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="j|vD%!#AL6Q+7PldrdXl"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="tF;EZ4qFT^SIS`iivW1E"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="%I78pV?eSGqR1Sd#sjyr"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="*K=TBSy+pc;=YJ-mN,,E"><field name="NUM">25</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}PZbiAuwF-syCWa)4gc9"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></next></block></next></block></statement></block><block type="device_button_event" id="=d69,J|h9e-3..vY_G.2" x="-32" y="1025"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="e/bYBR`ln2Uh^L3vijoB"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="PHY0unN.+lT}]^q/-LdL"/></value><next><block type="controls_if" id="(VJzbu!18tnSx1@5{#-,"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="?rD#75sQyxyg+9]hmz|q"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="#.4gNe==yy)O`yl^zLT("><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="L-}N60!~5_zX,+/OVE)w"><field name="NUM">25</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="^+CfpkUje-ID]hq4olXt"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="Iq!_Q;{#4|Ha-m/bE(lC"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="+T^3*Z;fxEYI~=B1F#~l"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="%3tNphaYvm04}BJ=fi80"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number" id="`bvx?SE~a,7NX5^%m/mP"><field name="NUM">25</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="lI6ICP@YFQ1zU?S:o=-u"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_print_message" id="I@]?64X-l24I_MG`6?O_"><value name="text"><shadow type="text" id="U}oP5[;S?L%o:cK6g!Kx"><field name="TEXT">Chaqueta</field></shadow></value></block></next></block></statement></block></next></block></next></block></statement></block></xml>
